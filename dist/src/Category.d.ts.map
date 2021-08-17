@@ -1,0 +1,1 @@
+{"version":3,"file":"Category.d.ts","sourceRoot":"","sources":["../../src/Category.ts"],"names":[],"mappings":"AACA,QAAA,MAAM,UAAU;;;;;;;;;;;;;;;;;;;;;;;;;CAyBf,CAAC;AAEF,oBAAY,YAAY,GAAG,MAAM,OAAO,UAAU,CAAC;AAEnD,MAAM,CAAC,OAAO,OAAO,QAAQ;WACX,GAAG,CAAC,QAAQ,EAAE,YAAY;;;;;;;;;;;;;;;;;WAI1B,MAAM,IAAI,CAAC;QACrB,EAAE,EAAE,MAAM,CAAC;QACX,IAAI,EAAE,MAAM,CAAC;KAChB,CAAC,EAAE;CASP"}
