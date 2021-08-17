@@ -1,0 +1,27 @@
+{
+  "name": "@wault/category",
+  "version": "1.0.0",
+  "description": "Handles category operations for Wault projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wault-app/category.git"
+  },
+  "keywords": [
+    "typescript",
+    "categories",
+    "wault"
+  ],
+  "author": "Gál Péter (pepyta)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/wault-app/category/issues"
+  },
+  "homepage": "https://github.com/wault-app/category#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
