@@ -1,15 +1,4 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
-var categories = {
+const categories = {
     work: {
         name: "Work",
     },
@@ -35,15 +24,11 @@ var categories = {
         name: "Education",
     },
 };
-var Category = /** @class */ (function () {
-    function Category() {
-    }
-    Category.get = function (category) {
+export default class Category {
+    static get(category) {
         return categories[category];
-    };
-    Category.getAll = function () {
-        return Object.keys(categories).map(function (key) { return (__assign({ id: key }, Category.get(key))); });
-    };
-    return Category;
-}());
-export default Category;
+    }
+    static getAll() {
+        return Object.keys(categories).map((key) => (Object.assign({ id: key }, Category.get(key))));
+    }
+}
